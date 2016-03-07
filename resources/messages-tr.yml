@@ -40,7 +40,7 @@ cmds:
       all_registered_groups: "Var olan gruplar: %var0%"
   grpinfo:
     desc: "Shows info about a group."
-    usage: "Usage: /grpinfo <grup> [dünya]"
+    usage: "Kullanış: /grpinfo <grup> [dünya]"
     messages:
       group_not_exist: "%var0% adında bir grup yok."
       grpinfo_header: "-- Group Information for %var0% --" 
@@ -109,7 +109,7 @@ cmds:
       level_not_exist: "%var0% adında bir dünya bulunmamakta."
   setgroup: 
     desc: "Belirlenen kullanıcının grubunu belirler."
-    usage: "Usage: /setgroup <oyuncu> <grup> [dünya]"
+    usage: "Kullanış: /setgroup <oyuncu> <grup> [dünya]"
     messages:
       access_denied_01: "Belirlenen oyuncunun grubunu %var0% grubuna değiştirmeye yetkiniz yok."
       access_denied_02: "Belirlenen oyuncunun grubunu %var0% grubuna değiştirmeye yetkiniz yok."    
